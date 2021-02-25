@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(./images/background.png);
+    background-image: url(../images/background.png);
     background-size: 110%;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     color: #fff;
@@ -61,7 +61,7 @@ body {
 }
 
 .menu__item:checked + .menu__item-label::before {
-    background-image: url(./images/rectangle.svg);
+    background-image: url(../images/rectangle.svg);
     background-size: 100%;
 }
 
@@ -159,18 +159,18 @@ body {
 }
 
 .game__card-back {
-    background-image: url(./images/card.png);
+    background-image: url(../images/card.png);
     background-size: 101%;
     transition: transform 0.6s;
 }
 
 .game__card-front {
-    background-image: url(./images/game-over-card.png);
+    background-image: url(../images/game-over-card.png);
     transform: rotateY(180deg);
 }
 
 .game__card-front_buggy {
-    background-image: url(./images/bug-card.png);
+    background-image: url(../images/bug-card.png);
     background-size: cover;
 }
 
